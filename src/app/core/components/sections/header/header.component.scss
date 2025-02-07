@@ -1,0 +1,17 @@
+.top-header {
+  height: 70px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+  align-items: center;
+
+  .logo {
+    color: #fff;
+  }
+
+  .operations {
+    display: flex;
+    gap: 1rem;
+  }
+}

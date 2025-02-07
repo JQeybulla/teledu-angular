@@ -1,0 +1,21 @@
+.home {
+  background-color: #F8FAFC;
+  padding: 5rem 0;
+  .cards-container {
+    margin: auto;
+    width: max-content;
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(4, max-content);
+      //vertical-align: center;
+      //horiz-align: center;
+      row-gap: 1.5rem;
+      column-gap: 1.5rem;
+      width: max-content;
+      margin-top: 0.8rem;
+    }
+    .pagination {
+      margin-top: 2rem;
+    }
+  }
+}
