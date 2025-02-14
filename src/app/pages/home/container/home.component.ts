@@ -6,6 +6,7 @@ import {Button} from 'primeng/button';
 import {AsyncPipe, NgForOf} from '@angular/common';
 import {HomeService} from '../services/home.service';
 import {TeachersComponent} from '../components/teachers/teachers.component';
+import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -13,7 +14,8 @@ import {TeachersComponent} from '../components/teachers/teachers.component';
     CardComponent,
     Paginator,
     Button,
-    TeachersComponent
+    TeachersComponent,
+    RouterLink
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
