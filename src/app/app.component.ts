@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import {PrimeNG} from 'primeng/config';
 import {HeaderComponent} from './core/components/sections/header/header.component';
 import {CardComponent} from './core/components/card/card.component';
+import {FooterComponent} from './core/components/sections/footer/footer.component';
 
 @Component({
   selector: 'app-root',
-  imports: [HeaderComponent, CardComponent, RouterOutlet],
+  imports: [HeaderComponent, CardComponent, RouterOutlet, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

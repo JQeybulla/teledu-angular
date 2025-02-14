@@ -1,0 +1,70 @@
+.home {
+  padding: 5rem 0;
+  width: fit-content;
+  margin: auto;
+  .cards-container {
+    margin: auto;
+    overflow: hidden;
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      align-items: center;
+      justify-items: center;
+      row-gap: 1.5rem;
+      column-gap: 1.5rem;
+      width: 100%;
+      margin-top: 1.8rem;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .seeAll {
+      margin-top: 2rem;
+      text-align: center;
+    }
+  }
+
+  .teachers-container {
+    margin: 4rem 0;
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .cards-container {
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, max-content) !important;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .cards-container {
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, max-content) !important;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cards-container {
+    h2 {
+      text-align: center;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr !important;
+      column-gap: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cards-container {
+    width: 90%;
+  }
+}

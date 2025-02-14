@@ -1,0 +1,17 @@
+.teacher {
+  //border: 1px solid green;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 8px;
+  img {
+    width: 120px;
+    border-radius: 50%;
+  }
+  h4 {
+    margin-top: 1rem;
+  }
+}

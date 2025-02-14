@@ -1,0 +1,33 @@
+.teachers {
+  margin: auto;
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+    width: 100%;
+    margin-top: 1.8rem;
+    justify-content: center;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr !important;
+  }
+}
