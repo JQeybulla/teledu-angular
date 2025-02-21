@@ -5,6 +5,7 @@ import {Rating} from 'primeng/rating';
 import {FormsModule} from '@angular/forms';
 import {AnimateOnScroll} from 'primeng/animateonscroll';
 import {Ripple} from 'primeng/ripple';
+import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-card',
@@ -16,6 +17,7 @@ import {Ripple} from 'primeng/ripple';
     ButtonDirective,
     Ripple,
     ButtonLabel,
+    RouterLink,
   ],
   templateUrl: './card.component.html',
   styleUrl: './card.component.scss'

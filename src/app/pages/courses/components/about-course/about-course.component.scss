@@ -1,0 +1,20 @@
+.about-course {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  .general-info {
+    display: flex;
+    gap: 1rem;
+    .info-field {
+      border: 1px solid #ededed;
+      padding: 10px;
+      border-radius: 4px;
+    }
+  }
+  .wide-info-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+}
